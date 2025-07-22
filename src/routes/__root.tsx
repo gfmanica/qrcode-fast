@@ -25,7 +25,7 @@ export const Route = createRootRoute({
                 content: 'width=device-width, initial-scale=1'
             },
             {
-                title: 'TanStack Start Starter'
+                title: 'Influentza Catza - QRCode'
             }
         ],
         links: [{ rel: 'stylesheet', href: appCss }]
@@ -52,7 +52,7 @@ function RootDocument({ children }: Readonly<{ children: ReactNode }>) {
             <body className="flex h-dvh w-dvw flex-col">
                 <header className="fixed top-0 right-0 left-0 z-50 flex h-16 items-center justify-between border-b-2 border-white/40 bg-white/40 p-2 pl-4 backdrop-blur-sm">
                     <h1>
-                        <Link to="/">QRCode Rápido</Link>
+                        <Link to="/">QRCode Influentza Catza</Link>
                     </h1>
                 </header>
 
